@@ -58,11 +58,17 @@ https://github.com/pranjalv123/ASTRID/releases, and put it in your path.
 ### Usage
 
 #### First, edit the file `Utils.py` to update the values of variables:
+
 DATADIR : directory where the results will be written
+
 EMAIL : email address for connexion to NCBI databases
+
 GENOMELISTFILE : list of genomes to include in the analysis
+
 ISLANDPATHDIR : path to IslandPath release
+
 ASTRALJARFILE : path to ASTRAL jar file
+
 ASTRIDEXECUTABLENAME : Name of ASTRID binary file
 
 #### Then, run the program
