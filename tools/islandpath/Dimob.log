@@ -1,0 +1,29 @@
+[DEBUG] 2020/03/03 17:10:12 (./Dimob.pl line 96) Logging initialized
+[INFO] 2020/03/03 17:10:12 (./Dimob.pl line 101) Creating temp directory with needed files
+[INFO] 2020/03/03 17:10:13 (./Dimob.pl line 122) This is the /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210
+[DEBUG] 2020/03/03 17:10:13 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 110) From filename /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210.gbk got /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210, gbk
+[TRACE] 2020/03/03 17:10:13 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 125) Reading genbank format file
+[INFO] 2020/03/03 17:10:13 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 137) The genome sequence in /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210.gbk has been read.
+[TRACE] 2020/03/03 17:10:14 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 153) Checking contig NC_003210
+[TRACE] 2020/03/03 17:10:14 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 163) Found sequence in the genbank/embl file
+[INFO] 2020/03/03 17:10:14 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 201) We have 1 contigs
+[DEBUG] 2020/03/03 17:10:14 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 285) From filename /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210.gbk got /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210, gbk
+[TRACE] 2020/03/03 17:10:14 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 725) No base filename given in args, trying to use object default: /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210
+[TRACE] 2020/03/03 17:10:14 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 295) Found formats: 
+[INFO] 2020/03/03 17:10:14 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 318) The genome sequence in /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210.gbk has been read.
+[INFO] 2020/03/03 17:10:14 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 319) Now generating required file formats (faa, ffn and ptt)
+[TRACE] 2020/03/03 17:10:17 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/GenomeUtils.pm line 725) No base filename given in args, trying to use object default: /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210
+[INFO] 2020/03/03 17:10:17 (./Dimob.pl line 134) Running IslandPath-DIMOB
+[TRACE] 2020/03/03 17:10:17 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 129) Genome /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210, found formats: .faa .ffn .ptt
+[DEBUG] 2020/03/03 17:10:17 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 149) Looking for mobility genes using hmmer
+[DEBUG] 2020/03/03 17:10:17 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 158) Running hmmer command hmmscan /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/hmmpfam/Pfam-A_mobgenes_201512_prok /Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/NC_003210.faa >/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/example/dimob_tmpk3ab8OjxZ6/blasttmpNxRThRLa5_
+[DEBUG] 2020/03/03 17:10:25 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 172) Parsing hmmer results with Mobgene
+[TRACE] 2020/03/03 17:10:25 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob/mobgene.pm line 56) Using extended ids
+[DEBUG] 2020/03/03 17:10:26 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 185) Retrieving mobility genes from ptt file
+[DEBUG] 2020/03/03 17:10:26 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 194) Calculating dinucleotide bias
+[DEBUG] 2020/03/03 17:10:41 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 215) Looking for regions with dinuc bias and mobility genes
+[DEBUG] 2020/03/03 17:10:41 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 234) Cleaning temporary files
+[TRACE] 2020/03/03 17:10:41 (/Users/ouaa2003/Downloads/islandpath-1.0.4-conda/lib/Dimob.pm line 237) Cleaning up temp files for Dimob
+[INFO] 2020/03/03 17:10:41 (./Dimob.pl line 137) Printing results
+[INFO] 2020/03/03 17:10:41 (./Dimob.pl line 144) Warning: txt output is now depreciated. Support has been added to output GFF3 formatted documents. Use (any) other extension to enable GFF output. See: https://github.com/brinkmanlab/islandpath/issues/7
+[INFO] 2020/03/03 17:10:41 (./Dimob.pl line 167) Removing tmp files
