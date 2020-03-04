@@ -65,7 +65,7 @@ print( ogalnpath)
 
 ###############################################################################
 
-print("\nComputing orthogroup gene trees...")
+print("\nComputing orthogroup gene trees using FastTree...")
 start = time.time()
 outgroup = outgroupGenome(GENOMELISTFILE)
 for file in glob.glob(ogalnpath+'/*.fa'):
