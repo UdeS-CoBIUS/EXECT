@@ -11,16 +11,25 @@
 #       2020
 #
 
-import Step1_Data_Acquisition.py
+print("\n\nStep1 : Data acquisition")
+import Step1_Data_Acquisition
 
-import Step2_GI_and_PTG_Detection.py
+print("\n\nStep2 : GI and PTG detection")
+import Step2_GI_and_PTG_Detection
 
-import Step3_Gene_Clustering.py
+print("\n\nStep3 : Gene clustering")
+import Step3_Gene_Clustering
 
-import Step4_RAxML_Tree_Estimation.py
+print("\n\nStep4 : Species tree estimation using RAxML")
+import Step4_RAxML_Tree_Estimation
 
-import Step5_GeneTree_Construction.py
+print("\n\nStep5 : Gene trees construction")
+import Step5_GeneTree_Construction
 
-import Step6_Species_Tree_Construction.py
+print("\n\nStep6 : Species trees construction using ASTRID, ASTRAL, and CONSENSE")
+import Step6_Species_Tree_Construction
 
-import Branch_support_analysis.py
+print("\n\nBranch support analysis")
+import Branch_support_analysis
+
+print("\n\nAnalysis completed. All results are in directory:\n"+DATADIR)
