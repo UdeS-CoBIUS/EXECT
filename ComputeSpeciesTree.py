@@ -11,6 +11,8 @@
 #       2020
 #
 
+from Utils import *
+
 print("\n\nStep1 : Data acquisition")
 import Step1_Data_Acquisition
 
