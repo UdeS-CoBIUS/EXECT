@@ -42,6 +42,9 @@ install IslandPath, OrthoFinder, FastTree, RAxML and PHYLIP via bioconda
 
 exemple : conda install islandpath orthofinder fasttree raxml phylip
 
+If Bioconda is not installed on your computer, follow the instructions
+for the installation and usage at https://bioconda.github.io/user/
+
 For IslandPath, a release is included in the repository in the
 `tools/islandpath` directory. You can download the most recent
 version at https://github.com/brinkmanlab/islandpath/releases/
