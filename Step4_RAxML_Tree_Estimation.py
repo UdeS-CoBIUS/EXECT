@@ -123,7 +123,7 @@ if not os.path.exists(speciestreepath):
 if(len(glob.glob(orthofinderpath+"/*.result")) > 0):
     os.system("rm "+orthofinderpath+"/*.result")
 outgroup = outgroupGenome(GENOMELISTFILE)
-raxml_command = "raxmlHPC -T 4 -n result -s "+output_file+" -p 123456 -m PROTGAMMAAUTO -b 123456 -N 3 -o "+outgroup+" --asc-corr lewis" + " 2>/dev/null"+ " >/dev/null"
+raxml_command = "raxmlHPC -T 4 -n result -s "+output_file+" -p 123456 -m PROTGAMMAAUTO -b 123456 -N 3 -o "+outgroup+" --asc-corr lewis" 
 os.system(raxml_command)
 
 if(len(glob.glob(orthofinderpath+"/out*")) > 0):
