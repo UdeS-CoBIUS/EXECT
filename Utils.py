@@ -17,11 +17,11 @@ import os
 
 ###############################################################################
 MAINDIR = os.getcwd()
-DATADIR = MAINDIR+"/data" # Modify this line to change data directory
-EMAIL = "" #Indicate your email address for connexion to NCBI databases
+DATADIR = MAINDIR+"/data" # Modify this line to change the data directory
+EMAIL = "name@domain.com" #Indicate your email address for connexion to NCBI databases
 
 #Comment the following line and uncomment the next line to run the analyses
-#on Coimbra et al. (2020) dataset
+#on the Coimbra et al. (2020) dataset
 GENOMELISTFILE = MAINDIR + "/Example_genome_list.txt"
 #GENOMELISTFILE = MAINDIR + "/Corynebacteriales_genome_list.txt"
 
