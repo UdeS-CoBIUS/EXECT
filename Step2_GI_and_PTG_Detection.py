@@ -45,7 +45,7 @@ stat.write("GenomeId"+"\t"+"NumberOfGI"+"\t"+"NumberOfPTG"+"\n")
 
 ###############################################################################
 print("\nRunning IslandPath-Dimob on genome files...")
-start = time.time()
+startt = time.time()
 os.chdir(ISLANDPATHDIR)
 gbkpath = datapath + "/gbk"
 
@@ -81,7 +81,7 @@ for file in glob.glob(gbkpath+'/*'):
     noptgFile.close()
     stat.write(locus+"\t"+str(nb_gi)+"\t"+str(nb_ptg)+"\n")
 stat.close()
-print("IslandPath-Dimob completed in "+str(time.time()-start)+" seconds")
+print("IslandPath-Dimob completed in "+str(time.time()-startt)+" seconds")
 print(gipath)
 print(ptgpath)
 print(stat_file)
