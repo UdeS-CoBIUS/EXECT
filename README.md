@@ -17,7 +17,7 @@ For questions email us at aida.ouangraoua@usherbrooke.ca
 
 - Python 3.7 or higher  
 
-- Python modules: os, glob, time, decimal, ete3, pandas, matplotlib, seaborn, Bio
+- Python modules: os, glob, time, decimal, ete3, pandas, matplotlib, seaborn, collections, Bio (Bio.SeqIO, Bio.Seq, Bio.Align, Bio.AlignIO, Bio.Entrez, Bio.GenBank, Bio.SeqRecord, Bio.Alphabet)
 
 - Mafft+ standalone
 
